@@ -9,8 +9,7 @@ tg bot token
 list of admin chat_ids, separated by ';'
 
 ## Commands
-- start - kinda does nothing
-- reboot - starts a new shell
+- start - starts a new shell
 
 ## Requirements
 listed in requirements.txt
