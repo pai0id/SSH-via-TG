@@ -10,7 +10,7 @@ from fpdf import FPDF
 TOKEN = os.getenv('BOT_TOKEN')
 bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.MARKDOWN))
 
-ADMINS = list(map(int, os.getenv('ADMINS', '').split(';')))
+ADMINS = list(map(int, os.getenv('ADMINS', '').split('_')))
 
 dp = Dispatcher()
 router = Router()

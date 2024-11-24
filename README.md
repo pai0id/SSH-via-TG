@@ -6,7 +6,7 @@ Needs an .env file with:
 - BOT_TOKEN  
 tg bot token
 - ADMINS  
-list of admin chat_ids, separated by ';'
+list of admin chat_ids, separated by '_'
 
 ## Commands
 - start - starts a new shell
